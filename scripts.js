@@ -1,6 +1,7 @@
 let password1El = document.getElementById("password1-el")
 let password2El = document.getElementById("password2-el")
 let generateEl = document.getElementById("generate-el")
+let passwordLengthEl = document.getElementById("password-length")
 
 let copyButtons = document.querySelectorAll(".copy-button")
 
@@ -52,3 +53,5 @@ function copyToClipboard(event) {
     alert("Password is copied to clipboard!")
   }
 }
+
+function 
