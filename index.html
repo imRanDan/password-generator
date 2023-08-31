@@ -7,14 +7,20 @@
   <title>Password Generator</title>
 
   <link rel="stylesheet" href="./styles.css">
-</head>
+</head
 <body>
   <main>
     <h1>Generate a <br> <span>random password</span></h1>
     <p>Never use an insecure password again.</p>
 
     <div class="password-options">
-      <input type="number" id="password-length">
+      <label>
+        <input type="checkbox" id="no-symbols"><p>No Symbols</p>
+      </label>
+      <label>
+        <input type="checkbox" id="lowercase"><p>Removes uppercase</p>
+      </label>
+      <!-- <input type="range" min="8" max="50"  id="length-slider"> Add this in later --> 
     </div>
   
       <button id="generate-el">Generate passwords</button>
@@ -30,6 +36,8 @@
         </div>
       </section>
 
+
+      <p class="disclaimer">**Selecting more options will make the password easier to remember, but may be easier to crack. After copying password, please keep it in a safe place (such as a password manager, notes, or physically written down somewhere)</p>
   </main>
   <script src="./scripts.js"></script>
 </body>
