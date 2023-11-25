@@ -1,7 +1,7 @@
 # password-generator
 I have trouble coming up with new passwords so I created this to help cut down the time to make one.
 
-**Link to project:** https://imrandan.github.io/toronto-stargazer-nasa-api/
+**Link to project:** https://the-cool-password-generator.netlify.app/
 
 ## How It's Made:
 
